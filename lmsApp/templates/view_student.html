@@ -1,0 +1,32 @@
+ {% load static %} {% load humanize %}
+<style>
+    #uni_modal .modal-footer {
+        display: none
+    }
+    
+    #uni_modal .modal-sub-footer {
+        display: flex
+    }
+</style>
+<div class="container-fluid" id="e-details">
+    <div class="">
+        <dl>
+            <dt>School ID</dt>
+            <dd class="ps-4">{{student.code}}</dd>
+            <dt>Department</dt>
+
+            <dt>Course</dt>
+            <dd class="ps-4">{{student.course}}</dd>
+            <dt>Name</dt>
+            <dd class="ps-4">{{student.name}}</dd>
+            <dt>Gender</dt>
+            <dd class="ps-4">{{student.gender}}</dd>
+
+
+
+
+
+
+        </dl>
+    </div>
+</div>
